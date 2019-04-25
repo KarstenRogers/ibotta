@@ -2,6 +2,31 @@
   position: relative;
   height: 100vh;
 
+  &__arrow-down {
+    background: rgba(255,255,255,.65);
+    margin: auto;
+    position: absolute;
+    top: 86vh;
+    right: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(255,255,255,.75);
+    }
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
   &__rebates:hover {
      color: $color-hover-link;
    }

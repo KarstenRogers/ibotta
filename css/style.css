@@ -11,9 +11,57 @@ html {
 body {
   box-sizing: border-box; }
 
+.heading-primary {
+  color: #ffffff;
+  backface-visibility: hidden; }
+  .heading-primary--main {
+    display: block;
+    font-size: 9rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 6.8rem;
+    font-size: 2.8rem;
+    letter-spacing: 4px; }
+
+.fa-arrow-down {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  border-bottom: 2px solid #27938e;
+  border-right: 2px solid #27938e;
+  width: 19.98px;
+  height: 19.98px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color: transparent; }
+
 .header {
   position: relative;
   height: 100vh; }
+  .header__arrow-down {
+    background: rgba(255, 255, 255, 0.65);
+    margin: auto;
+    position: absolute;
+    top: 86vh;
+    right: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer; }
+    .header__arrow-down:hover {
+      background: rgba(255, 255, 255, 0.75); }
+  .header__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
   .header__rebates:hover {
     color: #74cac5; }
   .header__works:hover {
@@ -55,3 +103,15 @@ body {
   padding: .66em 1.33em; }
   .btn__signup:hover {
     color: #74cac5; }
+
+.btn--white {
+  background-color: #ffffff;
+  color: #27938e;
+  text-decoration: none;
+  padding: 2rem 7rem;
+  border-radius: 7px;
+  font-size: 1.7rem;
+  transition: all .2s; }
+  .btn--white:hover {
+    color: #c5e8e7;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15); }

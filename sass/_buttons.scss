@@ -11,4 +11,19 @@
       color: $color-hover-link;
     }
   }
+
+  &--white {
+    background-color: $color-white;
+    color: $color-primary;
+    text-decoration: none;
+    padding: 2rem 7rem;
+    border-radius: 7px;
+    font-size: 1.7rem;
+    transition: all .2s;
+
+    &:hover {
+      color: $color-primary-light;
+      box-shadow: 0 0 5px 3px rgba(0,0,0,.15);
+    }
+  }
 }
