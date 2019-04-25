@@ -1,0 +1,14 @@
+.btn {
+
+  &__signup {
+    background-color: #27938e;
+    border: 1px solid #1c6f6b;
+    border-radius: 5px;
+    color: #FFF;
+    padding: .66em 1.33em;
+
+    &:hover {
+      color: $color-hover-link;
+    }
+  }
+}

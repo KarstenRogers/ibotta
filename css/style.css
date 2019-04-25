@@ -1,19 +1,57 @@
 *,
-*::before,
-*::after {
+*::after,
+*::before {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
 
 .header {
-  float: right;
-  width: 100%;
-  padding: 25px;
-  background-color: rgba(39, 147, 142, 0.8); }
+  position: relative;
+  height: 100vh; }
+  .header__rebates:hover {
+    color: #74cac5; }
+  .header__works:hover {
+    color: #74cac5; }
+  .header__login:hover {
+    color: #74cac5; }
   .header__nav {
     display: flex;
     justify-content: flex-end;
-    list-style: none; }
+    list-style: none;
+    padding-top: 5rem; }
     .header__nav--item {
       text-decoration: none;
-      margin-right: 60px;
-      color: #ffffff; }
+      margin-right: 50px;
+      color: #ffffff;
+      font-size: 1.6rem; }
+      .header__nav--item:not(:last-child) {
+        padding-top: 1rem; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }
+
+.btn__signup {
+  background-color: #27938e;
+  border: 1px solid #1c6f6b;
+  border-radius: 5px;
+  color: #FFF;
+  padding: .66em 1.33em; }
+  .btn__signup:hover {
+    color: #74cac5; }
