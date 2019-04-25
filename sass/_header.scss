@@ -1,0 +1,18 @@
+.header {
+  float: right;
+  width: 100%;
+  padding: 25px;
+  background-color: rgba($color-primary,.8);
+
+  &__nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+    &--item {
+        text-decoration: none;
+        margin-right: 60px;
+      color: $color-white;
+    }
+  }
+}

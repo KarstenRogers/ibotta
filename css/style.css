@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  float: right;
+  width: 100%;
+  padding: 25px;
+  background-color: rgba(39, 147, 142, 0.8); }
+  .header__nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none; }
+    .header__nav--item {
+      text-decoration: none;
+      margin-right: 60px;
+      color: #ffffff; }
