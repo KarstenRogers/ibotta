@@ -11,3 +11,220 @@
   transform: rotate(45deg);
   color: transparent;
 }
+
+.fa-stopwatch {
+  position: absolute;
+  top: 10.4rem;
+  left: 14.5rem;
+  font-size: 2.7rem;
+}
+
+.fa-money-bill-alt {
+  position: absolute;
+  top: 10.5rem;
+  right: 16.1rem;
+  font-size: 2.7rem;
+}
+
+.fa-shopping-cart {
+  position: absolute;
+  top: 38rem;
+  left: 14rem;
+  font-size: 2.7rem;
+}
+
+.fa-dollar-sign {
+  position: absolute;
+  top: 39.6rem;
+  right: 17rem;
+  font-size: 2.7rem;
+}
+
+.step-icon {
+  border: 2px solid #cbccd0;
+  color: #cbccd0;
+  font-size: 1.8em;
+  margin: -31px auto 10px 94px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #eef0f4;
+
+  &::before {
+    content: ' ';
+    top: 0;
+    left: 0;
+  }
+
+  &::after {
+    left: 13.35px;
+    top: 6px;
+  }
+
+  &-2 {
+    border: 2px solid #cbccd0;
+    color: #cbccd0;
+    font-size: 1.8em;
+    margin: -31px auto 10px 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #eef0f4;
+
+    &::before {
+      content: ' ';
+      top: 0;
+      left: 0;
+    }
+
+    &::after {
+      left: 13.35px;
+      top: 6px;
+    }
+  }
+
+  &-3 {
+    border: 2px solid #cbccd0;
+    color: #cbccd0;
+    font-size: 1.8em;
+    margin: -31px auto 10px 90px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #eef0f4;
+
+    &::before {
+      content: ' ';
+      top: 0;
+      left: 0;
+    }
+
+    &::after {
+      left: 13.35px;
+      top: 6px;
+    }
+  }
+}
+
+.fa-plus-circle {
+  position: absolute;
+  left: 10.5rem;
+  top: -2rem;
+  font-size: 3.8rem;
+}
+
+.fa-cart-plus {
+  position: absolute;
+  left: 6.9rem;
+  top: -1.8rem;
+  font-size: 3.4rem;
+}
+
+.fa-file-invoice {
+  position: absolute;
+  left: 10.8rem;
+  top: -1.8rem;
+  font-size: 3.4rem;
+}
+
+i.fa.fa-mobile {
+  position: relative;
+  top: 0.4rem;
+  right: 20.5rem;
+  font-size: 2.5rem;
+  color: #dddfe4;
+
+  @media screen and (max-width: 767px) {
+    top: -4.1rem;
+    right: 14.5rem;
+  }
+}
+
+.icon-btn {
+  background: #3f3f3f;
+  color: #FFF;
+  border: none;
+  font-size: 1.1em;
+  height: 6rem;
+  line-height: 1.9em;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 6rem;
+  border-radius: 30px;
+
+  &:hover {
+    background: #FFF;
+  }
+}
+
+.fa-facebook-f:before {
+  content: "\f09a";
+  font-size: 2.5rem;
+  position: relative;
+  top: 1.8rem;
+}
+
+.fa-twitter:before {
+  content: "\f09a";
+  font-size: 2.5rem;
+  position: relative;
+  top: 1.8rem;
+}
+
+.fa-pinterest-p:before {
+  content: "\f09a";
+  font-size: 2.5rem;
+  position: relative;
+  top: 1.8rem;
+}
+
+.fa-instagram:before {
+  content: "\f09a";
+  font-size: 2.5rem;
+  position: relative;
+  top: 1.8rem;
+}
+
+.fa-snapchat-ghost:before {
+  content: "\f09a";
+  font-size: 2.5rem;
+  position: relative;
+  top: 1.8rem;
+}
+
+.fa-facebook-f {
+  color: #fff;
+
+  &:hover {
+    color: #4c66a4;
+  }
+}
+
+.fa-twitter {
+
+  &:hover {
+    color: #55acee;
+  }
+}
+
+.fa-pinterest-p {
+
+  &:hover {
+    color: #bd071d;
+  }
+}
+
+.fa-instagram {
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.fa-snapchat-ghost {
+
+  &:hover {
+    color: #000;
+  }
+}

@@ -1,5 +1,41 @@
 .btn {
 
+  &--green {
+    background: #27938e;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 15px 40px;
+    transition: .25s;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background: #1c6f6b;
+      color: #FFF;
+    }
+  }
+
+  &-pink {
+    background: #e25461;
+    color: #FFF;
+    font-weight: 500;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1rem 1.9rem;
+    white-space: normal;
+    border-color: #e25461;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    cursor: not-allowed;
+
+    @media screen and (max-width: 767px) {
+      display: block;
+      width: 100%;
+      margin-top: -2.5rem;
+    }
+  }
+
   &__signup {
     background-color: #27938e;
     border: 1px solid #1c6f6b;
@@ -16,8 +52,8 @@
     background-color: $color-white;
     color: $color-primary;
     text-decoration: none;
-    padding: 2rem 7rem;
-    border-radius: 7px;
+    padding: 1.8rem 7rem;
+    border-radius: 4px;
     font-size: 1.7rem;
     transition: all .2s;
 
@@ -26,4 +62,31 @@
       box-shadow: 0 0 5px 3px rgba(0,0,0,.15);
     }
   }
+}
+
+.cta__button {
+  font-size: 1.8em;
+  padding: 15px 40px;
+  -webkit-transition: .25s;
+  transition: .25s;
+  border-radius: 4px;
+  background: #27938e;
+  color: #FFF;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    background: #1c6f6b;
+    color: #FFF;
+  }
+}
+
+.cta__container {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.btn__cta--green {
+  text-align: center;
+  margin-bottom: 4rem;
 }

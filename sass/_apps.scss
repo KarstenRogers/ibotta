@@ -1,0 +1,109 @@
+.apps__retailer--icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.apps__retailer--company {
+  width: 25%;
+  min-height: 1px;
+  text-align: center;
+  margin-top: 2rem;
+  text-align: -webkit-center;
+  cursor: pointer;
+
+  @media screen and (max-width: 560px) {
+    width: 33.333333%;
+  }
+}
+
+.apps__icons {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.apps {
+  background: #ebedf2;
+  padding: 6rem;
+}
+
+.circle-border {
+  background-color: #FFF;
+  border: 13px solid #FFF;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 2rem;
+}
+
+.app {
+  background: #ebedf2;
+
+  &__icons {
+
+    @media screen and (max-width: 767px) {
+      padding-bottom: 6rem;
+    }
+
+    &--img {
+
+      @media screen and (max-width: 767px) {
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  &__details {
+    padding-top: 3rem;
+
+    @media screen and (max-width: 767px) {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  &__telephone {
+    border: 1px solid #dddfe4;
+    background-color: #FFF;
+    background-image: url(https://d2enyzngr1a9pt.cloudfront.net/images/icon_home_form-mobile-b50c146….png);
+    background-repeat: no-repeat;
+    background-position: 1rem 1rem;
+    color: #eef0f4;
+    letter-spacing: .03em;
+    font-size: 1.4em;
+    height: 4.4rem;
+    margin: 0 4px 6px 0;
+    width: 210px;
+    padding: 0 0 0 6rem;
+    text-align: left;
+    border-radius: 4px;
+
+    @media screen and (max-width: 767px) {
+      display: block;
+      padding: 0 0 0 14rem;
+      width: 100%;
+    }
+  }
+
+  &__icons--img {
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+
+}
+
+.form__app {
+  margin-bottom: 1.4rem;
+}
+
+@media screen and (max-width: 767px) {
+  .no-show--phone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .no-show--apps {
+    display: none;
+  }
+}
+
+

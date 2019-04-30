@@ -1,0 +1,155 @@
+.footer__social {
+
+  &--bar {
+    background: #303030;
+  }
+
+  &--buttons {
+    padding: 24px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  &--icon {
+    margin: 0 .5rem;
+    cursor: pointer;
+  }
+}
+
+.footer {
+  background: #4a4a4a;
+  padding-bottom: 5rem;
+
+  &__content {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    &--earn {
+
+      @media screen and (max-width: 526px) {
+        width: 50%;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+      }
+    }
+
+    &--list {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 3rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__terms {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+
+    &--section {
+      width: 40%;
+      text-align: center;
+      font-size: 1.4rem;
+      color: #dddfe4;
+      opacity: .6;
+      padding-left: 11rem;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        padding-left: 0;
+      }
+    }
+
+    &--link {
+      margin-right: 2.3rem;
+      color: #dddfe4;
+      opacity: .6;
+
+      &:hover {
+        color: #27938e;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__seo {
+    width: 60%;
+
+    @media screen and (max-width: 767px) {
+      width: 0;
+    }
+
+    &-terms {
+      font-size: 1.4rem;
+      color: #dddfe4;
+      opacity: .6;
+      padding-left: 13rem;
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+
+}
+
+a.earn__items {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #eef0f4;
+
+  &:hover {
+    color: #27938e;
+    text-decoration: none;
+  }
+}
+
+ul.earn__content {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+a.about__items {
+  text-decoration: none;
+}
+
+ul.about__content {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+a.partner__items {
+  text-decoration: none;
+}
+
+ul.partner__content {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+a.get__items {
+  text-decoration: none;
+}
+
+ul.get__content {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.earn {
+
+  &__title {
+    font-size: 1.89rem;
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #eef0f4;
+  }
+}

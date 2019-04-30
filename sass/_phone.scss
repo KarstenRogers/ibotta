@@ -1,0 +1,79 @@
+.section__phone {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &--content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 6rem;
+    position: relative;
+  }
+
+  &--col-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    text-align: center;
+  }
+
+  &--col-2 {
+    text-align: center;
+    margin-left: 4rem;
+  }
+
+  &--col-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    text-align: center;
+  }
+}
+
+.Grocery {
+  margin-top: 15rem;
+}
+
+.get__cash {
+  margin-top: 15rem;
+}
+
+.earn__cash--icon {
+  border: 1px solid #27938e;
+  color: #27938e;
+  font-size: 1.8em;
+  height: 48px;
+  margin: 15px auto;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.any__brand--icon {
+  border: 1px solid #27938e;
+  color: #27938e;
+  font-size: 1.8em;
+  height: 48px;
+  margin: 15px auto;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.get__real--cash--icon {
+  border: 1px solid #27938e;
+  color: #27938e;
+  font-size: 1.8em;
+  height: 48px;
+  margin: 15px auto;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.Grocery__more--icon {
+  border: 1px solid #27938e;
+  color: #27938e;
+  font-size: 1.8em;
+  height: 48px;
+  margin: 15px auto;
+  width: 48px;
+  border-radius: 50%;
+}

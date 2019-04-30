@@ -1,0 +1,20 @@
+.grocery__header {
+  border-bottom: 1px solid #dddfe4;
+  margin-top: 6rem;
+  text-align: left;
+
+  &--grocery {
+    display: inline-block;
+    color: #4a4a4a;
+  }
+
+  &--seeall {
+    float: right;
+  }
+}
+
+p.company__name.font15.mt-10 {
+  color: #4a4a4a;
+}
+
+

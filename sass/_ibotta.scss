@@ -1,0 +1,54 @@
+.ibotta {
+
+  &__works {
+    padding: 6rem 1.3em 5.33em;
+    background: rgb(235, 237, 242);
+    margin-top: 7rem;
+  }
+
+  &__container {
+    margin: auto;
+    max-width: 1200px
+  }
+
+  &__header--container {
+    margin: 0 auto 8rem;
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  &__section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__step--one {
+    position: relative;
+    text-align: center;
+  }
+
+  &__step--two {
+    position: relative;
+    text-align: center;
+  }
+
+  &__step--three {
+    position: relative;
+    text-align: center;
+  }
+
+}
+
+.timeline__container {
+  margin: 40px auto 0;
+  max-width: 1200px
+}
+
+.timeline {
+  background: #cbccd0;
+  height: 2px;
+  width: 66%;
+  margin: 0 auto;
+}
