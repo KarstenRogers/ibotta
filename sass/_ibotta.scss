@@ -15,6 +15,10 @@
     margin: 0 auto 8rem;
     font-size: 3.6rem;
     text-align: center;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 5rem;
+    }
   }
 
   &__section {
@@ -22,28 +26,57 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+    }
   }
 
   &__step--one {
     position: relative;
     text-align: center;
+
+    @media screen and (max-width: 767px) {
+      position: relative;
+      text-align: left;
+      max-width: 350px;
+      margin: 0 auto;
+    }
   }
 
   &__step--two {
     position: relative;
     text-align: center;
+
+    @media screen and (max-width: 767px) {
+      position: relative;
+      text-align: left;
+      width: 269px;
+      margin: 0 auto;
+    }
   }
 
   &__step--three {
     position: relative;
     text-align: center;
+
+    @media screen and (max-width: 767px) {
+      position: relative;
+      text-align: left;
+      max-width: 350px;
+      margin: 0 auto;
+    }
   }
 
 }
 
 .timeline__container {
   margin: 40px auto 0;
-  max-width: 1200px
+  max-width: 1200px;
+
+  @media screen and (max-width: 767px) {
+    margin: 0;
+  }
 }
 
 .timeline {
@@ -51,4 +84,12 @@
   height: 2px;
   width: 66%;
   margin: 0 auto;
+
+  @media screen and (max-width: 767px) {
+    transform: rotate(90deg);
+    width: 27%;
+    position: relative;
+    top: 9rem;
+    right: 17rem;
+  }
 }

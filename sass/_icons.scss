@@ -17,6 +17,10 @@
   top: 10.4rem;
   left: 14.5rem;
   font-size: 2.7rem;
+
+  @media screen and (max-width: 767px) {
+    left: 16.2rem;
+  }
 }
 
 .fa-money-bill-alt {
@@ -61,6 +65,12 @@
     top: 6px;
   }
 
+  @media screen and (max-width: 767px) {
+    margin: -11px auto -57px -62px;
+    height: 50px;
+    width: 50px;
+  }
+
   &-2 {
     border: 2px solid #cbccd0;
     color: #cbccd0;
@@ -81,6 +91,13 @@
       left: 13.35px;
       top: 6px;
     }
+
+    @media screen and (max-width: 767px) {
+      margin: 28px auto -48px -62px;
+      height: 50px;
+      width: 50px;
+    }
+
   }
 
   &-3 {
@@ -103,6 +120,12 @@
       left: 13.35px;
       top: 6px;
     }
+
+    @media screen and (max-width: 767px) {
+      margin: 27px auto -36px -62px;
+      height: 50px;
+      width: 50px;
+    }
   }
 }
 
@@ -111,6 +134,12 @@
   left: 10.5rem;
   top: -2rem;
   font-size: 3.8rem;
+
+  @media screen and (max-width: 767px) {
+    left: -5.1rem;
+    top: -0.1rem;
+    font-size: 3rem;
+  }
 }
 
 .fa-cart-plus {
@@ -118,6 +147,12 @@
   left: 6.9rem;
   top: -1.8rem;
   font-size: 3.4rem;
+
+  @media screen and (max-width: 767px) {
+    left: -5.4rem;
+    top: 4rem;
+    font-size: 2.7rem;
+  }
 }
 
 .fa-file-invoice {
@@ -125,6 +160,12 @@
   left: 10.8rem;
   top: -1.8rem;
   font-size: 3.4rem;
+
+  @media screen and (max-width: 767px) {
+    left: -4.7rem;
+    top: 3.9rem;
+    font-size: 2.8rem;
+  }
 }
 
 i.fa.fa-mobile {

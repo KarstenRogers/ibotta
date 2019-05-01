@@ -20,6 +20,10 @@
   &--col-2 {
     text-align: center;
     margin-left: 4rem;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
   }
 
   &--col-3 {
@@ -76,4 +80,13 @@
   margin: 15px auto;
   width: 48px;
   border-radius: 50%;
+}
+
+.hidden-lgup {
+  display: none;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+    font-size: 3rem !important;
+  }
 }

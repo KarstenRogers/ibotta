@@ -71,7 +71,7 @@ body {
   font-size: 3.6rem !important; }
 
 .font80 {
-  font-size: 8rem !important; }
+  font-size: 8rem; }
 
 .margleft25 {
   margin-left: 2.5rem; }
@@ -107,6 +107,9 @@ body {
   top: 10.4rem;
   left: 14.5rem;
   font-size: 2.7rem; }
+  @media screen and (max-width: 767px) {
+    .fa-stopwatch {
+      left: 16.2rem; } }
 
 .fa-money-bill-alt {
   position: absolute;
@@ -142,6 +145,11 @@ body {
   .step-icon::after {
     left: 13.35px;
     top: 6px; }
+  @media screen and (max-width: 767px) {
+    .step-icon {
+      margin: -11px auto -57px -62px;
+      height: 50px;
+      width: 50px; } }
   .step-icon-2 {
     border: 2px solid #cbccd0;
     color: #cbccd0;
@@ -158,6 +166,11 @@ body {
     .step-icon-2::after {
       left: 13.35px;
       top: 6px; }
+    @media screen and (max-width: 767px) {
+      .step-icon-2 {
+        margin: 28px auto -48px -62px;
+        height: 50px;
+        width: 50px; } }
   .step-icon-3 {
     border: 2px solid #cbccd0;
     color: #cbccd0;
@@ -174,24 +187,44 @@ body {
     .step-icon-3::after {
       left: 13.35px;
       top: 6px; }
+    @media screen and (max-width: 767px) {
+      .step-icon-3 {
+        margin: 27px auto -36px -62px;
+        height: 50px;
+        width: 50px; } }
 
 .fa-plus-circle {
   position: absolute;
   left: 10.5rem;
   top: -2rem;
   font-size: 3.8rem; }
+  @media screen and (max-width: 767px) {
+    .fa-plus-circle {
+      left: -5.1rem;
+      top: -0.1rem;
+      font-size: 3rem; } }
 
 .fa-cart-plus {
   position: absolute;
   left: 6.9rem;
   top: -1.8rem;
   font-size: 3.4rem; }
+  @media screen and (max-width: 767px) {
+    .fa-cart-plus {
+      left: -5.4rem;
+      top: 4rem;
+      font-size: 2.7rem; } }
 
 .fa-file-invoice {
   position: absolute;
   left: 10.8rem;
   top: -1.8rem;
   font-size: 3.4rem; }
+  @media screen and (max-width: 767px) {
+    .fa-file-invoice {
+      left: -4.7rem;
+      top: 3.9rem;
+      font-size: 2.8rem; } }
 
 i.fa.fa-mobile {
   position: relative;
@@ -538,6 +571,9 @@ ul.get__content {
   .section__phone--col-2 {
     text-align: center;
     margin-left: 4rem; }
+    @media screen and (max-width: 767px) {
+      .section__phone--col-2 {
+        display: none; } }
   .section__phone--col-3 {
     display: flex;
     flex-direction: column;
@@ -586,6 +622,13 @@ ul.get__content {
   width: 48px;
   border-radius: 50%; }
 
+.hidden-lgup {
+  display: none; }
+  @media screen and (max-width: 767px) {
+    .hidden-lgup {
+      display: block;
+      font-size: 3rem !important; } }
+
 .ibotta__works {
   padding: 6rem 1.3em 5.33em;
   background: #ebedf2;
@@ -599,34 +642,68 @@ ul.get__content {
   margin: 0 auto 8rem;
   font-size: 3.6rem;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    .ibotta__header--container {
+      margin-bottom: 5rem; } }
 
 .ibotta__section {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around; }
+  @media screen and (max-width: 767px) {
+    .ibotta__section {
+      flex-direction: column; } }
 
 .ibotta__step--one {
   position: relative;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    .ibotta__step--one {
+      position: relative;
+      text-align: left;
+      max-width: 350px;
+      margin: 0 auto; } }
 
 .ibotta__step--two {
   position: relative;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    .ibotta__step--two {
+      position: relative;
+      text-align: left;
+      width: 269px;
+      margin: 0 auto; } }
 
 .ibotta__step--three {
   position: relative;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    .ibotta__step--three {
+      position: relative;
+      text-align: left;
+      max-width: 350px;
+      margin: 0 auto; } }
 
 .timeline__container {
   margin: 40px auto 0;
   max-width: 1200px; }
+  @media screen and (max-width: 767px) {
+    .timeline__container {
+      margin: 0; } }
 
 .timeline {
   background: #cbccd0;
   height: 2px;
   width: 66%;
   margin: 0 auto; }
+  @media screen and (max-width: 767px) {
+    .timeline {
+      transform: rotate(90deg);
+      width: 27%;
+      position: relative;
+      top: 9rem;
+      right: 17rem; } }
 
 .section__rating {
   margin-bottom: 6.5rem; }
