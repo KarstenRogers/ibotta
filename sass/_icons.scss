@@ -14,34 +14,46 @@
 
 .fa-stopwatch {
   position: absolute;
-  top: 10.4rem;
-  left: 14.5rem;
+  top: 0.8rem;
+  left: 1rem;
   font-size: 2.7rem;
 
   @media screen and (max-width: 767px) {
-    left: 16.2rem;
+
   }
 }
 
 .fa-money-bill-alt {
   position: absolute;
-  top: 10.5rem;
-  right: 16.1rem;
+  top: 1rem;
+  right: 0.5rem;
   font-size: 2.7rem;
+
+  @media screen and (max-width: 767px) {
+
+  }
 }
 
 .fa-shopping-cart {
   position: absolute;
-  top: 38rem;
-  left: 14rem;
+  top: 1rem;
+  left: 0.6rem;
   font-size: 2.7rem;
+
+  @media screen and (max-width: 767px) {
+
+  }
 }
 
 .fa-dollar-sign {
   position: absolute;
-  top: 39.6rem;
-  right: 17rem;
+  top: 0.9rem;
+  right: 1.5rem;
   font-size: 2.7rem;
+
+  @media screen and (max-width: 767px) {
+
+  }
 }
 
 .step-icon {

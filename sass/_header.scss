@@ -45,6 +45,10 @@
     list-style: none;
     padding-top: 4rem;
 
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+
     &--item {
         text-decoration: none;
         margin-right: 4rem;

@@ -104,29 +104,26 @@ body {
 
 .fa-stopwatch {
   position: absolute;
-  top: 10.4rem;
-  left: 14.5rem;
+  top: 0.8rem;
+  left: 1rem;
   font-size: 2.7rem; }
-  @media screen and (max-width: 767px) {
-    .fa-stopwatch {
-      left: 16.2rem; } }
 
 .fa-money-bill-alt {
   position: absolute;
-  top: 10.5rem;
-  right: 16.1rem;
+  top: 1rem;
+  right: 0.5rem;
   font-size: 2.7rem; }
 
 .fa-shopping-cart {
   position: absolute;
-  top: 38rem;
-  left: 14rem;
+  top: 1rem;
+  left: 0.6rem;
   font-size: 2.7rem; }
 
 .fa-dollar-sign {
   position: absolute;
-  top: 39.6rem;
-  right: 17rem;
+  top: 0.9rem;
+  right: 1.5rem;
   font-size: 2.7rem; }
 
 .step-icon {
@@ -332,6 +329,9 @@ i.fa.fa-mobile {
     justify-content: flex-end;
     list-style: none;
     padding-top: 4rem; }
+    @media screen and (max-width: 767px) {
+      .header__nav {
+        display: none; } }
     .header__nav--item {
       text-decoration: none;
       margin-right: 4rem;
@@ -554,6 +554,39 @@ ul.get__content {
   text-align: center;
   margin-bottom: 4rem; }
 
+.navigation__button {
+  width: 3rem;
+  height: 2rem;
+  position: fixed;
+  top: 2rem;
+  left: 2.4rem;
+  border-radius: 50%;
+  z-index: 2000;
+  text-align: center;
+  cursor: pointer; }
+
+.navigation__icon, .navigation__icon::before, .navigation__icon::after {
+  width: 2rem;
+  height: 3px;
+  background-color: #74cac5;
+  display: inline-block;
+  opacity: 0.3; }
+
+.navigation__icon {
+  position: relative; }
+
+.navigation__icon::after {
+  top: .8rem; }
+
+.navigation__button:hover .navigation__icon::after {
+  top: 1rem; }
+
+.move--up {
+  top: -0.5rem; }
+
+.move--up-2 {
+  top: -1rem; }
+
 .section__phone {
   max-width: 1200px;
   margin: 0 auto; }
@@ -563,11 +596,18 @@ ul.get__content {
     margin: 0 auto;
     margin-top: 6rem;
     position: relative; }
+    @media screen and (max-width: 560px) {
+      .section__phone--content {
+        flex-direction: column; } }
   .section__phone--col-1 {
     display: flex;
     flex-direction: column;
     margin-top: 8rem;
     text-align: center; }
+    @media screen and (max-width: 560px) {
+      .section__phone--col-1 {
+        text-align: left;
+        margin-top: 2rem; } }
   .section__phone--col-2 {
     text-align: center;
     margin-left: 4rem; }
@@ -579,12 +619,24 @@ ul.get__content {
     flex-direction: column;
     margin-top: 8rem;
     text-align: center; }
+    @media screen and (max-width: 560px) {
+      .section__phone--col-3 {
+        text-align: left; } }
 
 .Grocery {
   margin-top: 15rem; }
+  @media screen and (max-width: 560px) {
+    .Grocery {
+      margin-top: 6rem; } }
 
 .get__cash {
   margin-top: 15rem; }
+  @media screen and (max-width: 767px) {
+    .get__cash {
+      margin-top: 13rem; } }
+  @media screen and (max-width: 560px) {
+    .get__cash {
+      margin-top: 6rem; } }
 
 .earn__cash--icon {
   border: 1px solid #27938e;
@@ -593,7 +645,12 @@ ul.get__content {
   height: 48px;
   margin: 15px auto;
   width: 48px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  position: relative; }
+  @media screen and (max-width: 560px) {
+    .earn__cash--icon {
+      float: left;
+      margin: 0 2rem 0 3rem; } }
 
 .any__brand--icon {
   border: 1px solid #27938e;
@@ -602,7 +659,12 @@ ul.get__content {
   height: 48px;
   margin: 15px auto;
   width: 48px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  position: relative; }
+  @media screen and (max-width: 560px) {
+    .any__brand--icon {
+      float: left;
+      margin: 0 2rem 0 3rem; } }
 
 .get__real--cash--icon {
   border: 1px solid #27938e;
@@ -611,7 +673,12 @@ ul.get__content {
   height: 48px;
   margin: 15px auto;
   width: 48px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  position: relative; }
+  @media screen and (max-width: 560px) {
+    .get__real--cash--icon {
+      float: left;
+      margin: 0 2rem 0 3rem; } }
 
 .Grocery__more--icon {
   border: 1px solid #27938e;
@@ -620,7 +687,12 @@ ul.get__content {
   height: 48px;
   margin: 15px auto;
   width: 48px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  position: relative; }
+  @media screen and (max-width: 560px) {
+    .Grocery__more--icon {
+      float: left;
+      margin: 0 2rem 0 3rem; } }
 
 .hidden-lgup {
   display: none; }
@@ -866,3 +938,45 @@ img.ibotta--img {
 @media screen and (max-width: 350px) {
   .no-show {
     display: none; } }
+
+.mobile__nav {
+  display: none; }
+  @media screen and (max-width: 767px) {
+    .mobile__nav {
+      display: inline-block;
+      position: absolute;
+      width: 100%;
+      background-color: #fff;
+      height: 21rem; } }
+  .mobile__nav--list {
+    list-style: none;
+    position: relative;
+    top: 4.5rem;
+    z-index: 999999; }
+  .mobile__nav--item:not(:last-child) {
+    text-decoration: none;
+    margin-right: 4rem;
+    color: #4a4a4a;
+    font-size: 1.6rem; }
+  .mobile__nav--item {
+    color: #27938e;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-right: 4rem; }
+
+.mobile__rebates {
+  border-bottom: 1px solid #dddfe4;
+  padding-left: 3rem; }
+
+.mobile__signup {
+  padding-left: 3rem; }
+
+input[type=checkbox]:checked ~ div {
+  background: red; }
+
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  /* For mobile, it's typically better to position checkbox on top of clickable
+     area and turn opacity to 0 instead. */ }

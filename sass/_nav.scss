@@ -1,0 +1,55 @@
+.mobile__nav {
+  display: none;
+
+  @media screen and (max-width: 767px) {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    height: 21rem;
+  }
+
+  &--list {
+    list-style: none;
+    position: relative;
+    top: 4.5rem;
+    z-index: 999999;
+  }
+
+  &--item:not(:last-child) {
+    text-decoration: none;
+    margin-right: 4rem;
+    color: #4a4a4a;
+    font-size: 1.6rem;
+  }
+
+  &--item {
+    color: $color-primary;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-right: 4rem;
+  }
+}
+
+.mobile__rebates {
+  border-bottom: 1px solid #dddfe4;
+  padding-left: 3rem;
+}
+
+.mobile__signup {
+  padding-left: 3rem;
+}
+
+input[type=checkbox]:checked ~ div {
+  background: red;
+}
+
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  /* For mobile, it's typically better to position checkbox on top of clickable
+     area and turn opacity to 0 instead. */
+}
+
+

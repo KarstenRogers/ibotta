@@ -8,6 +8,10 @@
     margin: 0 auto;
     margin-top: 6rem;
     position: relative;
+
+    @media screen and (max-width: 560px) {
+      flex-direction: column;
+    }
   }
 
   &--col-1 {
@@ -15,6 +19,11 @@
     flex-direction: column;
     margin-top: 8rem;
     text-align: center;
+
+    @media screen and (max-width: 560px) {
+      text-align: left;
+      margin-top: 2rem;
+    }
   }
 
   &--col-2 {
@@ -31,15 +40,31 @@
     flex-direction: column;
     margin-top: 8rem;
     text-align: center;
+
+    @media screen and (max-width: 560px) {
+      text-align: left;
+    }
   }
 }
 
 .Grocery {
   margin-top: 15rem;
+
+  @media screen and (max-width: 560px) {
+    margin-top: 6rem;
+  }
 }
 
 .get__cash {
   margin-top: 15rem;
+
+  @media screen and (max-width: 767px) {
+      margin-top: 13rem;
+  }
+
+  @media screen and (max-width: 560px) {
+    margin-top: 6rem;
+  }
 }
 
 .earn__cash--icon {
@@ -50,6 +75,12 @@
   margin: 15px auto;
   width: 48px;
   border-radius: 50%;
+  position: relative;
+
+  @media screen and (max-width: 560px) {
+    float: left;
+    margin: 0 2rem 0 3rem;
+  }
 }
 
 .any__brand--icon {
@@ -60,6 +91,12 @@
   margin: 15px auto;
   width: 48px;
   border-radius: 50%;
+  position: relative;
+
+  @media screen and (max-width: 560px) {
+    float: left;
+    margin: 0 2rem 0 3rem;
+  }
 }
 
 .get__real--cash--icon {
@@ -70,6 +107,12 @@
   margin: 15px auto;
   width: 48px;
   border-radius: 50%;
+  position: relative;
+
+  @media screen and (max-width: 560px) {
+    float: left;
+    margin: 0 2rem 0 3rem;
+  }
 }
 
 .Grocery__more--icon {
@@ -80,6 +123,12 @@
   margin: 15px auto;
   width: 48px;
   border-radius: 50%;
+  position: relative;
+
+  @media screen and (max-width: 560px) {
+    float: left;
+    margin: 0 2rem 0 3rem;
+  }
 }
 
 .hidden-lgup {
@@ -90,3 +139,4 @@
     font-size: 3rem !important;
   }
 }
+
