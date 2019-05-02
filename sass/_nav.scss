@@ -5,15 +5,16 @@
     display: inline-block;
     position: absolute;
     width: 100%;
-    background-color: #fff;
     height: 21rem;
   }
 
   &--list {
     list-style: none;
     position: relative;
-    top: 4.5rem;
-    z-index: 999999;
+    background-color: #fff;
+    height: 22.5rem;
+    width: 0;
+    opacity: 0;
   }
 
   &--item:not(:last-child) {
@@ -40,16 +41,25 @@
   padding-left: 3rem;
 }
 
-input[type=checkbox]:checked ~ div {
-  background: red;
-}
 
-input[type=checkbox] {
+.menu-icon {
+  padding: 10px 20px;
+  color: $color-primary;
+  margin: 6px 6px 0 0;
+  border-radius: 5px;
   position: absolute;
-  top: -9999px;
-  left: -9999px;
-  /* For mobile, it's typically better to position checkbox on top of clickable
-     area and turn opacity to 0 instead. */
+  font-size: 2.5rem;
+  display: none;
 }
 
+#mobile__Toggle {
+  display: none;
+}
 
+#mobile__Toggle:checked + .mobile__nav--list { width: 100%; opacity: 1; }
+
+@media screen and (max-width: 767px) {
+  .menu-icon {
+    display: block;
+  }
+}
