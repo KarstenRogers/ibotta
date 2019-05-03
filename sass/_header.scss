@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  //position: relative;
   height: 100vh;
 
   &__arrow-down {
@@ -25,9 +25,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    z-index: -1;
   }
 
-  &__rebates:hover {
+  /*&__rebates:hover {
      color: $color-hover-link;
    }
 
@@ -37,29 +38,7 @@
 
   &__login:hover {
     color: $color-hover-link;
-  }
-
-  &__nav {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    padding-top: 4rem;
-
-    @media screen and (max-width: 767px) {
-      display: none;
-    }
-
-    &--item {
-        text-decoration: none;
-        margin-right: 4rem;
-        color: $color-white;
-        font-size: 1.6rem;
-
-      &:not(:last-child) {
-        padding-top: 1rem;
-      }
-    }
-  }
+  }*/
 }
 
 .bg-video {

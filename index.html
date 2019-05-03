@@ -1,73 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">        <title>Ibotta</title>
-    </head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Ibotta</title>
+</head>
+<body>
+    <!--<nav class="mobile__nav" id="toggle-1">
+        <button type="button" id="mobile__Toggle">&#9776;</button>
+        <ul class="mobile__nav&#45;&#45;list">
+            <a href="#" class="mobile__nav&#45;&#45;item">
+                <li class="mobile__rebates mt-70">Find Offers</li>
+            </a>
+            <a href="#" class="mobile__nav&#45;&#45;item">
+                <li class="mobile__rebates">How it Works</li>
+            </a>
+            <a href="#" class="mobile__nav&#45;&#45;item">
+                <li class="mobile__rebates">Log in</li>
+            </a>
+            <a href="#" class="mobile__nav&#45;&#45;item">
+                <li class="mobile__signup">Sign up</li>
+            </a>
+        </ul>
+    </nav>-->
 
-    <input type="checkbox" id="mobile__Toggle">
-    <label for="mobile__Toggle" class="menu-icon">&#9776;
-    </label>
+    <header class="header">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+                <source src="img/ibotta__video.mp4" type="video/mp4">
+                <source src="img/video.webm" type="video/webm">
+                Your browser is not supported!
+            </video>
+        </div>
 
-        <nav class="mobile__nav" id="toggle-1">
-            <ul class="mobile__nav--list">
-                <a href="#" class="mobile__nav--item">
-                    <li class="mobile__rebates mt-70">Find Offers</li>
-                </a>
-                <a href="#" class="mobile__nav--item">
-                    <li class="mobile__rebates">How it Works</li>
-                </a>
-                <a href="#" class="mobile__nav--item">
-                    <li class="mobile__rebates">Log in</li>
-                </a>
-                <a href="#" class="mobile__nav--item">
-                    <li class="mobile__signup">Sign up</li>
-                </a>
+        <!--<ul class="header__nav">
+            <li class="header__rebates">
+                <a href="#" class="header__nav&#45;&#45;item">Find Offers</a>
+            </li>
+            <li class="header__works">
+                <a href="#" class="header__nav&#45;&#45;item">How it Works</a>
+            </li>
+            <li class="header__login">
+                <a href="#" class="header__nav&#45;&#45;item">Log in</a>
+            </li>
+            <li class="btn btn__signup">
+                <a href="#" class="header__nav&#45;&#45;item">Sign up</a>
+            </li>
+        </ul>-->
+
+        <nav>
+            <a href="#" id="mobile__Toggle">&#9776;</a>
+
+            <ul class="header__nav">
+                <li><a href="#">Find Offers</a></li>
+                <li><a href="#">How it Works</a></li>
+                <li><a href="#" class="btn btn__signup">Sign up</a></li>
             </ul>
         </nav>
 
-        <header class="header">
-            <div class="bg-video">
-                <video class="bg-video__content" autoplay muted loop>
-                    <source src="img/ibotta__video.mp4" type="video/mp4">
-                    <source src="img/video.webm" type="video/webm">
-                    Your browser is not supported!
-                </video>
-            </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">ibotta</span>
+                <span class="heading-primary--sub">Life Rewarded</span>
+            </h1>
 
-            <ul class="header__nav">
-                <a href="#" class="header__nav--item">
-                    <li class="header__rebates">Find Offers</li>
-                </a>
-                <a href="#" class="header__nav--item">
-                    <li class="header__works">How it Works</li>
-                </a>
-                <a href="#" class="header__nav--item">
-                    <li class="header__login">Log in</li>
-                </a>
-                <a href="#" class="header__nav--item">
-                    <li class="btn btn__signup">Sign up</li>
-                </a>
-            </ul>
+            <a href="#" class="btn btn--white">Download Ibotta</a>
+        </div>
 
-            <div class="header__text-box">
-                <h1 class="heading-primary">
-                    <span class="heading-primary--main">ibotta</span>
-                    <span class="heading-primary--sub">Life Rewarded</span>
-                </h1>
-
-                <a href="#" class="btn btn--white">Download Ibotta</a>
-            </div>
-
-            <div class="header__arrow-down">
-                <i class="fa fa-arrow-down" aria-hidden="true"></i>
-            </div>
-        </header>
+        <div class="header__arrow-down">
+            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+        </div>
+    </header>
 
     <div class="u-center-text u-margin-bottom-medium mt-60">
         <h2 class="heading-secondary font36">
@@ -78,15 +88,15 @@
     <section class="section__phone">
         <div class="section__phone--content">
             <div class="section__phone--col-1">
-                    <div class="save__time">
-                        <div class="earn__cash">
-                            <div class="earn__cash--icon">
-                                <i class="fas fa-stopwatch"></i>
-                            </div>
-                            <h3 class="font18">Save Time, Earn Cash</h3>
-                            <p class="font15">Cash back deals tailored just for you.</p>
+                <div class="save__time">
+                    <div class="earn__cash">
+                        <div class="earn__cash--icon">
+                            <i class="fas fa-stopwatch"></i>
                         </div>
+                        <h3 class="font18">Save Time, Earn Cash</h3>
+                        <p class="font15">Cash back deals tailored just for you.</p>
                     </div>
+                </div>
 
                 <div class="Grocery">
                     <div class="Grocery__more">
@@ -106,20 +116,21 @@
                     <h2 class="heading-secondary font80">
                         $526,423,371
                     </h2>
-                    <p class="font15">Ibotta users have earned millions in cash back rewards. <br> How will you spend yours?</p>
+                    <p class="font15">Ibotta users have earned millions in cash back rewards. <br> How will you spend yours?
+                    </p>
                 </div>
             </div>
 
             <div class="section__phone--col-3">
-                    <div class="earn__on">
-                        <div class="any__brand">
-                            <div class="any__brand--icon">
-                                <i class="far fa-money-bill-alt"></i>
-                            </div>
-                            <h3 class="font18">Earn on Any Brand</h3>
-                            <p class="font15">Get cash on things you already buy, like milk, bread, eggs, and more.</p>
+                <div class="earn__on">
+                    <div class="any__brand">
+                        <div class="any__brand--icon">
+                            <i class="far fa-money-bill-alt"></i>
                         </div>
+                        <h3 class="font18">Earn on Any Brand</h3>
+                        <p class="font15">Get cash on things you already buy, like milk, bread, eggs, and more.</p>
                     </div>
+                </div>
 
                 <div class="get__cash">
                     <div class="get__real--cash">
@@ -140,9 +151,6 @@
             <p class="font15">Ibotta users have earned millions in cash back rewards. <br> How will you spend yours?</p>
         </div>
     </section>
-
-
-
 
 
     <section class="ibotta__works">
@@ -228,243 +236,243 @@
     </section>
 
 
-   <section class="apps">
+    <section class="apps">
 
-       <div class="u-center-text u-margin-bottom-medium">
-           <h2 class="heading-secondary font36">
-               Your Favorite Stores & Apps
-           </h2>
-           <p class="font15">From Groceries to Electronics, Ibotta's got the deals you want.</p>
-       </div>
+        <div class="u-center-text u-margin-bottom-medium">
+            <h2 class="heading-secondary font36">
+                Your Favorite Stores & Apps
+            </h2>
+            <p class="font15">From Groceries to Electronics, Ibotta's got the deals you want.</p>
+        </div>
 
-       <div class="apps__icons">
-           <div class="grocery__header">
-               <h3 class="grocery__header--grocery font20">Grocery</h3>
-               <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
-           </div>
+        <div class="apps__icons">
+            <div class="grocery__header">
+                <h3 class="grocery__header--grocery font20">Grocery</h3>
+                <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
+            </div>
 
-           <div class="apps__retailer--icons">
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/walmart.jpg" alt="Walmart">
-                   </div>
-                   <p class="company__name font15 mt-10">Walmart</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
+            <div class="apps__retailer--icons">
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/walmart.jpg" alt="Walmart">
+                    </div>
+                    <p class="company__name font15 mt-10">Walmart</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
                         <img src="img/food-lion.jpg" alt="Food Lion">
-                   </div>
-                   <p class="company__name font15 mt-10">Food Lion</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
+                    </div>
+                    <p class="company__name font15 mt-10">Food Lion</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
                         <img src="img/kroger.jpg" alt="Kroger">
-                   </div>
-                   <p class="company__name font15 mt-10">Kroger</p>
-               </div>
-               <div class="apps__retailer--company no-show--apps">
-                   <div class="circle-border">
+                    </div>
+                    <p class="company__name font15 mt-10">Kroger</p>
+                </div>
+                <div class="apps__retailer--company no-show--apps">
+                    <div class="circle-border">
                         <img src="img/sam's-club.jpg" alt="Sam's Club">
-                   </div>
-                   <p class="company__name font15 mt-10">Sam's Club</p>
-               </div>
-           </div>
-       </div>
+                    </div>
+                    <p class="company__name font15 mt-10">Sam's Club</p>
+                </div>
+            </div>
+        </div>
 
-       <div class="apps__icons">
-           <div class="grocery__header">
-               <h3 class="grocery__header--grocery font20">Online Shopping</h3>
-               <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
-           </div>
+        <div class="apps__icons">
+            <div class="grocery__header">
+                <h3 class="grocery__header--grocery font20">Online Shopping</h3>
+                <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
+            </div>
 
-           <div class="apps__retailer--icons">
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/boxed.jpg" alt="Boxed">
-                   </div>
-                   <p class="company__name font15 mt-10">Boxed</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/iTunes.jpg" alt="iTunes">
-                   </div>
-                   <p class="company__name font15 mt-10">iTunes</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/Groupon.jpg" alt="Groupon">
-                   </div>
-                   <p class="company__name font15 mt-10">Groupon</p>
-               </div>
-               <div class="apps__retailer--company no-show--apps">
-                   <div class="circle-border">
-                       <img src="img/eBay.jpg" alt="eBay">
-                   </div>
-                   <p class="company__name font15 mt-10">eBay</p>
-               </div>
-           </div>
-       </div>
+            <div class="apps__retailer--icons">
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/boxed.jpg" alt="Boxed">
+                    </div>
+                    <p class="company__name font15 mt-10">Boxed</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/iTunes.jpg" alt="iTunes">
+                    </div>
+                    <p class="company__name font15 mt-10">iTunes</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/Groupon.jpg" alt="Groupon">
+                    </div>
+                    <p class="company__name font15 mt-10">Groupon</p>
+                </div>
+                <div class="apps__retailer--company no-show--apps">
+                    <div class="circle-border">
+                        <img src="img/eBay.jpg" alt="eBay">
+                    </div>
+                    <p class="company__name font15 mt-10">eBay</p>
+                </div>
+            </div>
+        </div>
 
-       <div class="apps__icons">
-           <div class="grocery__header">
-               <h3 class="grocery__header--grocery font20">Beer, Wine & Spirits</h3>
-               <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
-           </div>
+        <div class="apps__icons">
+            <div class="grocery__header">
+                <h3 class="grocery__header--grocery font20">Beer, Wine & Spirits</h3>
+                <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
+            </div>
 
-           <div class="apps__retailer--icons">
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/totalwinenmore.jpg" alt="Total Wine & More">
-                   </div>
-                   <p class="company__name font15 mt-10">Total Wine & More</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/BevMo.jpg" alt="BevMo">
-                   </div>
-                   <p class="company__name font15 mt-10">BevMo!</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/Spec's%20Wine.jpg" alt="Spec's Wine Spirits and Finer Foods">
-                   </div>
-                   <p class="company__name font15 mt-10">Spec's Wine Spirits and Finer Foods</p>
-               </div>
-               <div class="apps__retailer--company no-show--apps">
-                   <div class="circle-border">
-                       <img src="img/abc.jpg" alt="ABC Fine Wines and Spirits">
-                   </div>
-                   <p class="company__name font15 mt-10">ABC Fine Wines and Spirits</p>
-               </div>
-           </div>
-       </div>
+            <div class="apps__retailer--icons">
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/totalwinenmore.jpg" alt="Total Wine & More">
+                    </div>
+                    <p class="company__name font15 mt-10">Total Wine & More</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/BevMo.jpg" alt="BevMo">
+                    </div>
+                    <p class="company__name font15 mt-10">BevMo!</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/Spec's%20Wine.jpg" alt="Spec's Wine Spirits and Finer Foods">
+                    </div>
+                    <p class="company__name font15 mt-10">Spec's Wine Spirits and Finer Foods</p>
+                </div>
+                <div class="apps__retailer--company no-show--apps">
+                    <div class="circle-border">
+                        <img src="img/abc.jpg" alt="ABC Fine Wines and Spirits">
+                    </div>
+                    <p class="company__name font15 mt-10">ABC Fine Wines and Spirits</p>
+                </div>
+            </div>
+        </div>
 
-       <div class="apps__icons">
-           <div class="grocery__header">
-               <h3 class="grocery__header--grocery font20">Pharmacy</h3>
-               <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
-           </div>
+        <div class="apps__icons">
+            <div class="grocery__header">
+                <h3 class="grocery__header--grocery font20">Pharmacy</h3>
+                <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
+            </div>
 
-           <div class="apps__retailer--icons">
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/walgreens.jpg" alt="Walgreens">
-                   </div>
-                   <p class="company__name font15 mt-10">Walgreens</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/cvs.jpg" alt="CVS Pharmacy">
-                   </div>
-                   <p class="company__name font15 mt-10">CVS Pharmacy</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/freds.jpg" alt="fred's Pharmacy ">
-                   </div>
-                   <p class="company__name font15 mt-10">fred's Pharmacy</p>
-               </div>
-               <div class="apps__retailer--company no-show--apps">
-                   <div class="circle-border">
-                       <img src="img/duane.jpg" alt="Duane Reade">
-                   </div>
-                   <p class="company__name font15 mt-10">Duane Reade</p>
-               </div>
-           </div>
-       </div>
+            <div class="apps__retailer--icons">
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/walgreens.jpg" alt="Walgreens">
+                    </div>
+                    <p class="company__name font15 mt-10">Walgreens</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/cvs.jpg" alt="CVS Pharmacy">
+                    </div>
+                    <p class="company__name font15 mt-10">CVS Pharmacy</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/freds.jpg" alt="fred's Pharmacy ">
+                    </div>
+                    <p class="company__name font15 mt-10">fred's Pharmacy</p>
+                </div>
+                <div class="apps__retailer--company no-show--apps">
+                    <div class="circle-border">
+                        <img src="img/duane.jpg" alt="Duane Reade">
+                    </div>
+                    <p class="company__name font15 mt-10">Duane Reade</p>
+                </div>
+            </div>
+        </div>
 
-       <div class="apps__icons">
-           <div class="grocery__header">
-               <h3 class="grocery__header--grocery font20">Clothing</h3>
-               <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
-           </div>
+        <div class="apps__icons">
+            <div class="grocery__header">
+                <h3 class="grocery__header--grocery font20">Clothing</h3>
+                <a href="#" class="primary-link-color grocery__header--seeall font20">See All</a>
+            </div>
 
-           <div class="apps__retailer--icons">
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/academy.jpg" alt="Academy Sports + Outdoors">
-                   </div>
-                   <p class="company__name font15 mt-10">Academy Sports + Outdoors</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/academy.jpg" alt="Academy Sports + Outdoors">
-                   </div>
-                   <p class="company__name font15 mt-10">Academy Sports + Outdoors</p>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/cath.jpg" alt="fCatherines">
-                   </div>
-                   <p class="company__name font15 mt-10">Catherines</p>
-               </div>
-               <div class="apps__retailer--company no-show--apps">
-                   <div class="circle-border">
-                       <img src="img/clanks.jpg" alt="Clarks">
-                   </div>
-                   <p class="company__name font15 mt-10">Clarks</p>
-               </div>
-           </div>
-       </div>
+            <div class="apps__retailer--icons">
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/academy.jpg" alt="Academy Sports + Outdoors">
+                    </div>
+                    <p class="company__name font15 mt-10">Academy Sports + Outdoors</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/academy.jpg" alt="Academy Sports + Outdoors">
+                    </div>
+                    <p class="company__name font15 mt-10">Academy Sports + Outdoors</p>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/cath.jpg" alt="fCatherines">
+                    </div>
+                    <p class="company__name font15 mt-10">Catherines</p>
+                </div>
+                <div class="apps__retailer--company no-show--apps">
+                    <div class="circle-border">
+                        <img src="img/clanks.jpg" alt="Clarks">
+                    </div>
+                    <p class="company__name font15 mt-10">Clarks</p>
+                </div>
+            </div>
+        </div>
 
-       <div class="apps__icons">
-           <div class="grocery__header">
-               <h3 class="grocery__header--grocery font20">Other Categories</h3>
-           </div>
+        <div class="apps__icons">
+            <div class="grocery__header">
+                <h3 class="grocery__header--grocery font20">Other Categories</h3>
+            </div>
 
-           <div class="apps__retailer--icons">
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/beauty.jpg" alt="Beauty & Wellness">
-                   </div>
-                   <p class="company__name font15 mt-10">Beauty & Wellness</p>
-                   <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/bag.jpg" alt="Specialty">
-                   </div>
-                   <p class="company__name font15 mt-10">Specialty</p>
-                   <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/utilites.jpg" alt="Restaurants & Bars">
-                   </div>
-                   <p class="company__name font15 mt-10">Restaurants & Bars</p>
-                   <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/compass.jpg" alt="Convenience">
-                   </div>
-                   <p class="company__name font15 mt-10">Convenience</p>
-                   <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/paint.jpg" alt="Crafts & Gifts">
-                   </div>
-                   <p class="company__name font15 mt-10">Crafts & Gifts</p>
-                   <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/plane.jpg" alt="Travel">
-                   </div>
-                   <p class="company__name font15 mt-10">Travel</p>
-                   <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
-               </div>
-               <div class="apps__retailer--company">
-                   <div class="circle-border">
-                       <img src="img/tv.jpg" alt="Home & Electronics">
-                   </div>
-                   <p class="company__name font15 mt-10">Home & Electronics</p>
-                   <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
-               </div>
-           </div>
-       </div>
-   </section>
+            <div class="apps__retailer--icons">
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/beauty.jpg" alt="Beauty & Wellness">
+                    </div>
+                    <p class="company__name font15 mt-10">Beauty & Wellness</p>
+                    <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/bag.jpg" alt="Specialty">
+                    </div>
+                    <p class="company__name font15 mt-10">Specialty</p>
+                    <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/utilites.jpg" alt="Restaurants & Bars">
+                    </div>
+                    <p class="company__name font15 mt-10">Restaurants & Bars</p>
+                    <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/compass.jpg" alt="Convenience">
+                    </div>
+                    <p class="company__name font15 mt-10">Convenience</p>
+                    <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/paint.jpg" alt="Crafts & Gifts">
+                    </div>
+                    <p class="company__name font15 mt-10">Crafts & Gifts</p>
+                    <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/plane.jpg" alt="Travel">
+                    </div>
+                    <p class="company__name font15 mt-10">Travel</p>
+                    <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
+                </div>
+                <div class="apps__retailer--company">
+                    <div class="circle-border">
+                        <img src="img/tv.jpg" alt="Home & Electronics">
+                    </div>
+                    <p class="company__name font15 mt-10">Home & Electronics</p>
+                    <a href="#" class="primary-link-color company__name--seeall font15">See All</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="section__food">
         <div class="u-center-text u-margin-bottom-medium">
@@ -493,7 +501,8 @@
 
                         <div class="app__links">
                             <form class="form__app">
-                                <input class="app__telephone" type="tel" placeholder="(xxx) xxx-xxxx"><i class="fa fa-mobile" aria-hidden="true"></i>
+                                <input class="app__telephone" type="tel" placeholder="(xxx) xxx-xxxx"><i
+                                    class="fa fa-mobile" aria-hidden="true"></i>
                                 <button class="btn btn-pink" disabled type="submit">Text me a link</button>
                             </form>
                             <div class="app__available">
@@ -516,155 +525,165 @@
         </h2>
     </div>
 
-<section class="section__list">
-    <div class="section__list--content">
-        <div class="list__content">
-            <div class="list__content--1">
-                <p class="list__item">Walmart</p>
-                <p class="list__item">Food Lion</p>
-                <p class="list__item">Kroger</p>
-                <p class="list__item">Walgreens</p>
-                <p class="list__item">CVS Pharmacy</p>
-                <p class="list__item">Sam's Club</p>
-                <p class="list__item">Sam's Club Membership Offer</p>
-                <p class="list__item">Safeway</p>
-                <p class="list__item">Meijer</p>
-                <p class="list__item">Dollar General</p>
-                <p class="list__item">Costco</p>
-                <p class="list__item">H-E-B</p>
-            </div>
+    <section class="section__list">
+        <div class="section__list--content">
+            <div class="list__content">
+                <div class="list__content--1">
+                    <p class="list__item">Walmart</p>
+                    <p class="list__item">Food Lion</p>
+                    <p class="list__item">Kroger</p>
+                    <p class="list__item">Walgreens</p>
+                    <p class="list__item">CVS Pharmacy</p>
+                    <p class="list__item">Sam's Club</p>
+                    <p class="list__item">Sam's Club Membership Offer</p>
+                    <p class="list__item">Safeway</p>
+                    <p class="list__item">Meijer</p>
+                    <p class="list__item">Dollar General</p>
+                    <p class="list__item">Costco</p>
+                    <p class="list__item">H-E-B</p>
+                </div>
 
-            <div class="list__content--1 no-show">
-                <p class="list__item">ShopRite</p>
-                <p class="list__item">Harris Teeter</p>
-                <p class="list__item">Weis Markets</p>
-                <p class="list__item">WinCo Foods</p>
-                <p class="list__item">Military Commissary</p>
-                <p class="list__item">Whole Foods Market®</p>
-                <p class="list__item">Albertsons</p>
-                <p class="list__item">Giant Eagle</p>
-                <p class="list__item">Lowes Foods</p>
-                <p class="list__item">Redner's Markets</p>
-                <p class="list__item">Piggly Wiggly Midwest</p>
-                <p class="list__item">Stop & Shop</p>
-            </div>
+                <div class="list__content--1 no-show">
+                    <p class="list__item">ShopRite</p>
+                    <p class="list__item">Harris Teeter</p>
+                    <p class="list__item">Weis Markets</p>
+                    <p class="list__item">WinCo Foods</p>
+                    <p class="list__item">Military Commissary</p>
+                    <p class="list__item">Whole Foods Market®</p>
+                    <p class="list__item">Albertsons</p>
+                    <p class="list__item">Giant Eagle</p>
+                    <p class="list__item">Lowes Foods</p>
+                    <p class="list__item">Redner's Markets</p>
+                    <p class="list__item">Piggly Wiggly Midwest</p>
+                    <p class="list__item">Stop & Shop</p>
+                </div>
 
-            <div class="list__content--1 no-show ">
-                <p class="list__item">Hy-Vee</p>
-                <p class="list__item">Wegmans</p>
-                <p class="list__item">Family Dollar</p>
-                <p class="list__item">BJ's</p>
-                <p class="list__item">Big Y Foods</p>
-                <p class="list__item">Fred Meyer</p>
-                <p class="list__item">Fry's</p>
-                <p class="list__item">GIANT (PA,WV,MD,VA)</p>
-                <p class="list__item">Price Chopper (KS & MO)</p>
-                <p class="list__item">Smith's</p>
-                <p class="list__item">Any Liquor Store</p>
-                <p class="list__item">Ralphs</p>
-            </div>
+                <div class="list__content--1 no-show ">
+                    <p class="list__item">Hy-Vee</p>
+                    <p class="list__item">Wegmans</p>
+                    <p class="list__item">Family Dollar</p>
+                    <p class="list__item">BJ's</p>
+                    <p class="list__item">Big Y Foods</p>
+                    <p class="list__item">Fred Meyer</p>
+                    <p class="list__item">Fry's</p>
+                    <p class="list__item">GIANT (PA,WV,MD,VA)</p>
+                    <p class="list__item">Price Chopper (KS & MO)</p>
+                    <p class="list__item">Smith's</p>
+                    <p class="list__item">Any Liquor Store</p>
+                    <p class="list__item">Ralphs</p>
+                </div>
 
-            <div class="list__content--1 no-show">
-                <p class="list__item">King Soopers</p>
-                <p class="list__item">fred's Pharmacy </p>
-                <p class="list__item">Homeland</p>
-                <p class="list__item">Vons</p>
-                <p class="list__item">Reasor's</p>
-                <p class="list__item">Jewel-Osco</p>
-                <p class="list__item">Buehler's</p>
-                <p class="list__item">Giant (DC,DE,VA,MD)</p>
-                <p class="list__item">Martin's (IN, MI)</p>
-                <p class="list__item">Acme Fresh Market (OH)</p>
-                <p class="list__item">Dillons</p>
-                <p class="list__item">Food4Less</p>
+                <div class="list__content--1 no-show">
+                    <p class="list__item">King Soopers</p>
+                    <p class="list__item">fred's Pharmacy </p>
+                    <p class="list__item">Homeland</p>
+                    <p class="list__item">Vons</p>
+                    <p class="list__item">Reasor's</p>
+                    <p class="list__item">Jewel-Osco</p>
+                    <p class="list__item">Buehler's</p>
+                    <p class="list__item">Giant (DC,DE,VA,MD)</p>
+                    <p class="list__item">Martin's (IN, MI)</p>
+                    <p class="list__item">Acme Fresh Market (OH)</p>
+                    <p class="list__item">Dillons</p>
+                    <p class="list__item">Food4Less</p>
+                </div>
+            </div>
+            <div class="list__cta">
+                <div class="btn__cta--green">
+                    <a href="#" class="cta__green">
+                        <button class="btn--green">See All Stores & Apps</button>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="list__cta">
-            <div class="btn__cta--green">
-                <a href="#" class="cta__green">
-                    <button class="btn--green">See All Stores & Apps</button>
-                </a>
+    </section>
+
+    <div class="footer__social--bar">
+        <div class="footer__social--buttons">
+            <div class="footer__social--icon">
+                <i class="fab fa-facebook-f icon-btn"></i>
             </div>
-        </div>
-    </div>
-</section>
-
-<div class="footer__social--bar">
-    <div class="footer__social--buttons">
-        <div class="footer__social--icon">
-            <i class="fab fa-facebook-f icon-btn"></i>
-        </div>
-        <div class="footer__social--icon">
-            <i class="fab fa-twitter icon-btn" aria-hidden="true"></i>
-        </div>
-        <div class="footer__social--icon">
-            <i class="fab fa-pinterest-p icon-btn"></i>
-        </div>
-        <div class="footer__social--icon">
-            <i class="fab fa-instagram icon-btn"></i>
-        </div>
-        <div class="footer__social--icon">
-            <i class="fab fa-snapchat-ghost icon-btn"></i>
-        </div>
-    </div>
-</div>
-
-<footer class="footer">
-    <div class="footer__content">
-        <div class="footer__content--list">
-            <div class="footer__content--earn">
-                <ul class="earn__content">
-                    <li class="earn__title">Earn Cash</li>
-                    <a href="#" class="earn__items">Download Ibotta</a>
-                    <a href="#" class="earn__items">Offers</a>
-                    <a href="#" class="earn__items">Invite Friends</a>
-                </ul>
+            <div class="footer__social--icon">
+                <i class="fab fa-twitter icon-btn" aria-hidden="true"></i>
             </div>
-
-            <div class="footer__content--earn">
-                <ul class="earn__content">
-                    <li class="earn__title">Get Help</li>
-                    <a href="#" class="earn__items">How It Works</a>
-                    <a href="#" class="earn__items">Where It Works</a>
-                    <a href="#" class="earn__items">Help Center</a>
-                </ul>
+            <div class="footer__social--icon">
+                <i class="fab fa-pinterest-p icon-btn"></i>
             </div>
-
-            <div class="footer__content--earn">
-                <ul class="earn__content">
-                    <li class="earn__title">About</li>
-                    <a href="#" class="earn__items">Company</a>
-                    <a href="#" class="earn__items">Careers</a>
-                    <a href="#" class="earn__items">Blog</a>
-                </ul>
+            <div class="footer__social--icon">
+                <i class="fab fa-instagram icon-btn"></i>
             </div>
-
-            <div class="footer__content--earn">
-                <ul class="earn__content">
-                    <li class="earn__title">Partner With Us</li>
-                    <a href="#" class="earn__items">Brands</a>
-                    <a href="#" class="earn__items">Retailers</a>
-                    <a href="#" class="earn__items">Research</a>
-                    <a href="#" class="earn__items">Press Inquiries</a>
-                </ul>
+            <div class="footer__social--icon">
+                <i class="fab fa-snapchat-ghost icon-btn"></i>
             </div>
         </div>
     </div>
 
-    <div class="footer__terms">
-        <p class="footer__terms--section">
-            © 2019 Ibotta, Inc. All Rights Reserved.
-            <br>
-            <a href="#" class="footer__terms--link mt-10">Terms of Use</a>
-            <a href="#" class="footer__terms--link mt-10">Privacy Policy</a>
-        </p>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__content--list">
+                <div class="footer__content--earn">
+                    <ul class="earn__content">
+                        <li class="earn__title">Earn Cash</li>
+                        <a href="#" class="earn__items">Download Ibotta</a>
+                        <a href="#" class="earn__items">Offers</a>
+                        <a href="#" class="earn__items">Invite Friends</a>
+                    </ul>
+                </div>
 
-        <div class="footer__seo">
-            <p class="footer__seo-terms">
-                Ibotta is a free app that pays you cash for everyday purchases. Ditch the coupons and get cash back the fun and easy way. Ibotta has exclusive offers at your favorite grocery stores, retailers and shops. No more searching around for offers, coupons or discount codes - find the best deals every time you shop with Ibotta.
+                <div class="footer__content--earn">
+                    <ul class="earn__content">
+                        <li class="earn__title">Get Help</li>
+                        <a href="#" class="earn__items">How It Works</a>
+                        <a href="#" class="earn__items">Where It Works</a>
+                        <a href="#" class="earn__items">Help Center</a>
+                    </ul>
+                </div>
+
+                <div class="footer__content--earn">
+                    <ul class="earn__content">
+                        <li class="earn__title">About</li>
+                        <a href="#" class="earn__items">Company</a>
+                        <a href="#" class="earn__items">Careers</a>
+                        <a href="#" class="earn__items">Blog</a>
+                    </ul>
+                </div>
+
+                <div class="footer__content--earn">
+                    <ul class="earn__content">
+                        <li class="earn__title">Partner With Us</li>
+                        <a href="#" class="earn__items">Brands</a>
+                        <a href="#" class="earn__items">Retailers</a>
+                        <a href="#" class="earn__items">Research</a>
+                        <a href="#" class="earn__items">Press Inquiries</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__terms">
+            <p class="footer__terms--section">
+                © 2019 Ibotta, Inc. All Rights Reserved.
+                <br>
+                <a href="#" class="footer__terms--link mt-10">Terms of Use</a>
+                <a href="#" class="footer__terms--link mt-10">Privacy Policy</a>
             </p>
-        </div>
-    </div>
-</footer>
 
+            <div class="footer__seo">
+                <p class="footer__seo-terms">
+                    Ibotta is a free app that pays you cash for everyday purchases. Ditch the coupons and get cash back the
+                    fun and easy way. Ibotta has exclusive offers at your favorite grocery stores, retailers and shops. No
+                    more searching around for offers, coupons or discount codes - find the best deals every time you shop
+                    with Ibotta.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let nav = document.querySelector('nav');
+        nav.addEventListener('click', function () {
+            nav.classList.toggle('active');
+        })
+    </script>
+</body>
 </html>

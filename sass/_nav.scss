@@ -1,4 +1,110 @@
-.mobile__nav {
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-top: 4rem;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  //&--item {
+  li {
+    text-decoration: none;
+    margin-right: 4rem;
+    color: $color-white;
+    font-size: 1.5rem;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+    }
+
+    /*&:not(:last-child) {
+      padding-top: 1rem;
+    }*/
+
+    a {
+      color: #fff;
+      letter-spacing: .03rem;
+      text-decoration: none;
+    }
+  }
+}
+
+#mobile__Toggle {
+  margin-top: 1.3rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  display: none;
+  color: #ffffff;
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  #mobile__Toggle {
+    display: inline-block;
+  }
+}
+
+.btn__signup {
+  background-color: #27938e;
+  border: 1px solid #1c6f6b;
+  border-radius: 5px;
+  color: #FFF;
+  padding: .66em 1.33em;
+
+  &:hover {
+    color: $color-hover-link;
+  }
+}
+
+nav {
+  height: 40px;
+  overflow: hidden;
+
+  @media screen and (min-width: 767px) {
+    height: auto;
+    overflow: visible;
+  }
+}
+
+nav.active {
+  background-color: white;
+  height: auto;
+
+  #mobile__Toggle {
+    color: $color-primary;
+    margin-bottom: 1.5rem;
+  }
+
+  .header__nav {
+    li {
+      margin-right: 0;
+    }
+
+    a {
+      border-bottom: 1px solid #ddd;
+      color: #4a4a4a;
+      display: block;
+      padding: 1.5rem 2rem;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+
+    .btn__signup {
+      background-color: transparent;
+      border: 0;
+      border-right: 0;
+    }
+  }
+}
+
+/*.mobile__nav {
   display: none;
 
   @media screen and (max-width: 767px) {
@@ -53,14 +159,6 @@
   cursor: pointer;
 }
 
-#mobile__Toggle {
-  position: absolute;
-  top: 2.8rem;
-  left: 2.5rem;
-  opacity: 0;
-  cursor: pointer;
-}
-
 #mobile__Toggle:checked ~ .mobile__nav--list {
   width: 100%;
   opacity: 1;
@@ -72,5 +170,5 @@
   .menu-icon {
     display: block;
   }
-}
+}*/
 
